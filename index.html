@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specscast Assignment by Pushpender for Front-end Developer Role</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js" defer></script>
+</head>
+
+<body>
+  <header class="border-t-primary border-t-2 shadow-lg">
+    <div class="lg:container mx-auto relative flex justify-between px-3 h-12 md:h-16">
+      <div class="flex justify-center items-center md:items-start md:flex-col md:gap-y-3">
+        <div class="hidden md:flex md:gap-3">
+          <p>
+            Free Returns
+          </p>
+          <p>|</p>
+          <p>
+            Try At Home
+          </p>
+          <p>|</p>
+          <p>
+            24 Hr Dispatch
+          </p>
+        </div>
+        <nav class="hidden md:flex md:gap-x-3">
+          <a href="#" class="text-primary font-semibold text-xl">Glasses</a>
+          <a href="#" class="text-primary font-semibold text-xl">Sunglasses</a>
+          <a href="#" class="text-primary font-semibold text-xl">Eye-Test</a>
+          <a href="#" class="text-primary font-semibold text-xl">Blogs</a>
+        </nav>
+        <img src="./images/hamburger-menu-icon.png" alt="menu-icon" class="w-10 md:hidden">
+      </div>
+      <img src="./images/logo.png" alt="Specscast logo"
+        class="object-cover h-12 md:h-16 absolute top-0 left-14 md:left-1/2 md:-translate-x-1/2">
+      <div class="flex justify-center items-center md:items-end md:flex-col md:gap-y-2">
+        <div class="hidden md:flex md:gap-3">
+          <p>
+            +441613125767
+          </p>
+          <p>|</p>
+          <p>
+            Help
+          </p>
+          <p>|</p>
+          <p>
+            Log In
+          </p>
+        </div>
+        <div class="flex gap-3 md:gap-x-8 justify-center items-center">
+          <img src="./images/search-icon.png" alt="" class="hidden md:block md:w-6">
+          <img src="./images/user-icon.png" alt="" class="md:w-6">
+          <img src="./images/heart-icon.png" alt="" class="md:w-6">
+          <img src="./images/home-icon.png" alt="" class="md:w-6">
+          <img src="./images/cart-icon.png" alt="" class="md:w-6">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="hero">
+    <div class="md:container md:mx-auto flex flex-col py-5 md:flex-row md:px-14 md:h-[500px]">
+      <div class="hero-image order-1 md:order-2 md:w-1/2 relative h-[300px] md:h-full" id="hero-image">
+        <img src="./images/hero-img-3.png" alt=""
+          class="max-h-full absolute md:-left-[12%] md:top-[16%] top-[25%] left-[7%] w-[8rem] md:w-auto">
+        <img src="./images/hero-img-2.png" alt=""
+          class="max-h-full absolute md:top-[20%] md:left-[15%] left-[24%] top-[26%] w-[17rem] md:w-auto">
+        <img src="./images/hero-img-1.png" alt=""
+          class="max-h-full absolute md:top-[52%] md:-left-[10%] bottom-[15%] left-[9%] w-[16rem] md:w-auto">
+      </div>
+      <div class="hero-content px-5 order-2 md:order-1 md:w-1/2 md:flex md:flex-col md:justify-center">
+        <div>
+          <p class="font-semibold text-xl text-center md:text-start">Try at Home 2.0</p>
+          <h1 class="text-black font-bold text-2xl text-center md:text-start mt-4">It's An Exprience!</h1>
+          <div class="text-center md:text-start" id="hero-text">
+            <h1 class="inline-block text-black font-bold text-2xl leading-normal opacity-0 translate-y-full">Four
+              Frames.</h1>
+            <h1 class="inline-block text-black font-bold text-2xl leading-normal opacity-0 translate-y-full">Three
+              Lenses.</h1>
+            <h1 class="inline-block text-black font-bold text-2xl leading-normal opacity-0 translate-y-full">1Laser
+            </h1>
+          </div>
+        </div>
+        <div class="hero-buttons mt-6 flex flex-col items-center md:flex-row md:gap-x-5 gap-y-5">
+          <button class="text-white bg-secondary rounded-full py-2 px-8 font-bold text-xl">Try Now</button>
+          <!-- <div class="text-white bg-secondary font-bold text-xl rounded-full p-3">
+            >
+          </div> -->
+          <p class="font-semibold text-xl text-center text-black">Watch Whats New!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="glasses-type" class="py-16 px-5">
+    <div class="md:container mx-auto flex flex-col items-center">
+      <div class="md:px-16 text-center">
+        <h1 class="text-black font-bold text-3xl text-center">4 frames, 3 lenses, 7 days - direct to your
+          home.</h1>
+        <p class="mt-5 font-normal text-secondary text-xl">We get it - sometimes you need to hold the glasses in your
+          hand
+          (or take a
+          selfie wearing them) to know if
+          they’re made for you or not. With our Free Home Trial, get 4 frames of your choice at your home, along with 3
+          cool lenses.</p>
+      </div>
+      <div class="cards-container mt-5 w-full flex flex-col gap-y-2 md:flex-row">
+        <div
+          class="card cursor-pointer h-[20rem] relative rounded-t-2xl md:rounded-tr-none md:rounded-bl-lg shadow overflow-hidden py-10 px-5 text-white flex flex-col md:flex-1 md:h-[28rem] active">
+          <h1 class="font-bold text-2xl">Anti Reflective Glasses</h1>
+          <p>At No Added Cost</p>
+          <div class="mt-auto underline text-xl">
+            <a href="#" class="mr-5">Shop Men</a>
+            <a href="#">Shop Women</a>
+          </div>
+          <img src="./images/anti-reflective-glasses.jpg" alt=""
+            class="w-full h-full object-cover absolute top-0 left-0 -z-10">
+        </div>
+        <div
+          class="card cursor-pointer h-[20rem] relative shadow overflow-hidden py-10 px-5 text-white flex flex-col md:flex-1 bg-[#401c4c] md:h-[28rem]">
+          <h1 class="font-bold text-2xl">Free Coatings</h1>
+          <p>At Specscart - it’s Free and will always be.</p>
+          <div class="mt-auto z-10 flex flex-wrap gap-5 md:flex-col">
+            <div class="flex items-center gap-3">
+              <img src="./images/anti-uv-icon.png" alt="">
+              <span>Anti UV</span>
+            </div>
+
+            <div class="flex items-center gap-5">
+              <img src="./images/anti-glare-icon.png" alt="">
+              <p>Anti Glare</p>
+            </div>
+            <div class="flex items-center gap-5">
+              <img src="./images/impact-resistance-icon.png" alt="">
+              <p>Impact Resistance</p>
+            </div>
+            <div class="flex items-center gap-5">
+              <img src="./images/anti-scratch-icon.png" alt="">
+              <p>Anti Scratch</p>
+            </div>
+          </div>
+          <img src="./images/free-coatings.png" alt="" class="object-cover absolute bottom-0 right-0 z-0">
+        </div>
+        <div
+          class="card cursor-pointer h-[20rem] relative rounded-b-lg shadow overflow-hidden py-10 px-5 text-white flex flex-col bg-[#603c74] md:rounded-b-none md:rounded-r-lg md:h-[28rem] md:flex-1">
+          <div class="z-10">
+            <h1 class="font-bold text-2xl">24H Dispatch</h1>
+            <p>Free Shipping Across the Globe!</p>
+          </div>
+          <img src="./images/24h-dispatch.png" alt="" class="object-cover absolute bottom-0 right-0 z-1">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="antiReflectionGlasses" class="py-16 px-5">
+    <div class="md:container mx-auto flex flex-col items-center">
+      <div class="md:px-16 text-center">
+        <h1 class="text-black font-bold text-3xl text-center">Your eyes are splendid. Let people see them clearly.</h1>
+        <p class="mt-5 font-normal text-secondary text-xl">We know how frustrating glasses glare can be. Anti-reflective
+          or anti-glare coating prevents glare on your lenses - letting almost
+          all light through. Not only do anti-reflective glasses help in computer use and driving at night, they also
+          allow other people to
+          see you clearly. You don’t need to tilt your head at awkward angles while getting photographed, either! Since
+          more light reaches
+          your eyes, you’ll also notice an improvement in your vision. And the best part? Anti-glare, anti-scratch, and
+          anti-UV coatings are
+          all free of cost at Specscart!</p>
+      </div>
+      <div
+        class="image-comparision-container mt-10 md:w-[800px] md:h-[400px] relative overflow-hidden w-full h-[300px] rounded-lg">
+        <img src="./images/anti-glare-lenses-example-normal.jpg" alt="" class="w-full h-full absolute object-cover">
+        <img src="./images/anti-glare-lenses-example-active-glare.jpg" alt=""
+          class="w-full h-full absolute object-cover" id="anti-glare-image-active">
+        <input type="range" min="0" max="100" value="50" id="slider" oninput="slide()">
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
